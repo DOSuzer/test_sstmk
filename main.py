@@ -16,7 +16,6 @@ PHONE_NUMBER_CHECK = re.compile(
 
 TRANSFORM_PATTERNS = OrderedDict({
     r" ": r"",
-    r"^\(": r"+7(",
     r"^8\(": r"+7(",
 })
 
